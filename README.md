@@ -1,40 +1,40 @@
-# Simulador MSEIR
+# MSEIR Simulator
 
-Este es un simulador de pandemia MSEIR (Modelo Epidemiológico MSEIR) creado en Python con Pygame. El modelo MSEIR divide a la población en cuatro grupos: Susceptibles (S), Expuestos (E), Infectados (I) y Recuperados (R). La simulación tiene en cuenta diversos parámetros como la tasa de exposición, la tasa de infección, la tasa de recuperación y la tasa de mortalidad.
+This is a MSEIR (Modified Susceptible-Exposed-Infectious-Recovered) pandemic simulator created in Python using Pygame. The MSEIR model divides the population into four groups: Susceptible (S), Exposed (E), Infectious (I), and Recovered (R). The simulation takes into account various parameters such as exposure rate, infection rate, recovery rate, and mortality rate.
 
-## Autor
+## Author
 Daniel Alejandro AV
 
-## Fecha
-01/04/2024
+## Date
+04/01/2024
 
-## Funcionamiento
-El programa simula el movimiento y la interacción de los individuos en una población, mostrando visualmente su estado de salud en la pantalla. Los individuos pueden estar en uno de los siguientes estados: Susceptible (S), Expuesto (E), Infectado (I) o Recuperado (R). La simulación permite ajustar los parámetros de la población y observar cómo afectan a la propagación de la enfermedad.
+## Overview
+The program simulates the movement and interaction of individuals within a population, visually displaying their health status on the screen. Individuals can be in one of the following states: Susceptible (S), Exposed (E), Infectious (I), or Recovered (R). The simulation allows adjusting population parameters and observing how they affect the disease spread.
 
-## Requisitos
+## Requirements
 - Python 3.x
 - Pygame
 
-## Instrucciones de uso
-1. Asegúrate de tener Python y Pygame instalados en tu sistema.
-2. Clona este repositorio o descarga los archivos.
-3. Ejecuta el archivo `simulador_mseir.py`.
-4. Observa la simulación en la pantalla y ajusta los parámetros según sea necesario.
-5. Cierra la ventana de simulación cuando hayas terminado.
+## Usage Instructions
+1. Make sure you have Python and Pygame installed on your system.
+2. Clone this repository or download the files.
+3. Run the `simulador_mseir.py` file.
+4. Observe the simulation on the screen and adjust the parameters as needed.
+5. Close the simulation window when finished.
 
-## Parámetros de la simulación
-- Tamaño de la población: 300
-- Número inicial de infectados: 5
-- Tasa de exposición: 0.03
-- Tasa de infección: 0.1
-- Tasa de recuperación: 0.05
-- Tasa de mortalidad: 0.01
+## Simulation Parameters
+- Population size: 300
+- Initial number of infected: 5
+- Exposure rate: 0.03
+- Infection rate: 0.1
+- Recovery rate: 0.05
+- Mortality rate: 0.01
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si encuentras algún error o tienes sugerencias para mejorar el simulador, por favor abre un problema o envía una solicitud de extracción.
+## Contributions
+Contributions are welcome. If you find any bugs or have suggestions for improving the simulator, please open an issue or submit a pull request.
 
-## Licencia
-Este proyecto está bajo la [Licencia MIT](LICENSE).
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-¡Disfruta del simulador y cuídate!
+Enjoy the simulator and stay safe!
 
