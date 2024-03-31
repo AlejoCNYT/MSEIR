@@ -1,3 +1,7 @@
+# Author: Daniel Alejandro AV
+# Fecha: 01/04/2024
+# Simulador MSEIR
+
 import pygame
 import random
 
